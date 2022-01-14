@@ -7,6 +7,7 @@ import ComFilhos from './components/ComFilhos'
 import Primeiro from './components/Primeiro'
 import Card from './components/layout/Card'
 import Repeticao from './components/Repeticao'
+import Condicional from './components/Condicional'
 
 
 export default (props) => (
@@ -32,9 +33,11 @@ export default (props) => (
         </Card>
 
         <Card titulo="#04 Repeticao">
-            <Repeticao>
+            <Repeticao></Repeticao>
+        </Card>
 
-            </Repeticao>
+        <Card titulo="#05 Condicional versão 1">
+            <Condicional numero={11}></Condicional>
         </Card>
 
     </div>
