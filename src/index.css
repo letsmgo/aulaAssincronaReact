@@ -1,9 +1,13 @@
-body{
+body {
     background-color: #444;
     color: #fff;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     font-size: 2rem;
-    
+
+}
+
+h1, h2 {
+    font-weight: 300;
 }
