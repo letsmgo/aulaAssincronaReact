@@ -1,14 +1,12 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import './components/layout/Card'
-import Card from './components/layout/Card'
-import Primeiro from './components/Primeiro'
 import'./App.css'
 
- 
 import ComParametro from './components/ComParametro'
 import ComFilhos from './components/ComFilhos'
-
+import Primeiro from './components/Primeiro'
+import Card from './components/layout/Card'
+import Repeticao from './components/Repeticao'
 
 
 export default (props) => (
@@ -32,14 +30,12 @@ export default (props) => (
                 </ul>
             </ComFilhos>
         </Card>
+
+        <Card titulo="#04 Repeticao">
+            <Repeticao>
+
+            </Repeticao>
+        </Card>
+
     </div>
-
-    /*
-   COMENTADO PARA FINS DIDÁTICOS
-    
-
-         
-         
-   */
-
 )
