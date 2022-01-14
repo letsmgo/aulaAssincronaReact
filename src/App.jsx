@@ -13,16 +13,16 @@ import ComFilhos from './components/ComFilhos'
 
 export default (props) => (
     <div className="App">
-        <Card titulo="Primeiro componente">
+        <Card titulo="#01 Primeiro componente">
         <Primeiro></Primeiro>
         </Card>
         
-        <Card titulo="Componente com parametro">
+        <Card titulo="#02 Componente com parametro">
         <ComParametro titulo="Titulo" 
          subtitulo="Subtitulo"/>
         </Card>
 
-        <Card>
+        <Card titulo="#03 Componente com filhos">
             <ComFilhos>
                 <ul>
                     <li>Jao</li>
