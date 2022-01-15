@@ -11,6 +11,7 @@ import Condicional from './components/Condicional'
 import CondicionalComIf from './components/CondicionalComIf'
 import './comunicacao/direta/Pai'
 import Pai from "./comunicacao/direta/Pai";
+import Super from "./comunicacao/indireta/Super";
 
 
 export default (props) => (
@@ -49,6 +50,10 @@ export default (props) => (
 
         <Card titulo="#07 Comunicação direta" color="#FA6900">
             <Pai sobrenome="Freitas"></Pai>
+        </Card>
+
+        <Card titulo="#08 Comunicação indireta" color="#FA6900">
+            <Super></Super>
         </Card>
 
     </div>
