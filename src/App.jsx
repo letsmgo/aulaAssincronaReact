@@ -1,7 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import'./App.css'
-
 import ComParametro from './components/basicos/ComParametro'
 import ComFilhos from './components/basicos/ComFilhos'
 import Primeiro from './components/basicos/Primeiro'
@@ -9,12 +7,15 @@ import Card from './components/layout/Card'
 import Repeticao from './components/basicos/Repeticao'
 import Condicional from './components/basicos/Condicional'
 import CondicionalComIf from './components/basicos/CondicionalComIf'
-import './comunicacao/direta/Pai'
 import Pai from "./comunicacao/direta/Pai";
 import Super from "./comunicacao/indireta/Super";
 import Input from "./components/form/Input";
-import './components/contador/Contador'
 import Contador from "./components/contador/Contador";
+import Mega from './components/mega/Mega'
+import'./App.css'
+import './comunicacao/direta/Pai'
+import './components/contador/Contador'
+
 
 export default (props) => (
     <div className="App">
@@ -66,6 +67,10 @@ export default (props) => (
         
         <Card titulo="#10 Contador" color="#808080">
             <Contador passo={10} valor={100}></Contador>
+        </Card>
+
+        <Card titulo="#11 Mega" color="#808080">
+            <Mega qtdNumero={6}></Mega>
         </Card>
         </div>
 
